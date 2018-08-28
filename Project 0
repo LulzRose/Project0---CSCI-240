@@ -1,0 +1,26 @@
+/*************************************
+CSCI 240      Progran 0   	FALL 2018
+Programmer: Kurt Bruggeman (LulzRose)
+Section: 2
+Date Due: 8/31/18
+
+Purpose: Compiler Training
+*************************************/
+
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+void pushX(int num){
+    for(int i=0;i<num;i++)
+        cout<<" ";
+}
+int main() {
+    for(int j=0;j<100;j++){
+        system("CLS");
+        pushX(j);
+        cout<<"Hello World!";
+        Sleep(50);
+    }
+	return 0;	
+}
