@@ -1,12 +1,11 @@
-/*************************************
+/*
 CSCI 240      Progran 0   	FALL 2018
 Programmer: Kurt Bruggeman (LulzRose)
 Section: 2
 Date Due: 8/31/18
-
+https://github.com/LulzRose/Project0---CSCI-240
 Purpose: Compiler Training
-*************************************/
-
+*/
 #include <iostream>
 #include <windows.h>
 using namespace std;
@@ -16,7 +15,7 @@ void pushX(int num){
         cout<<" ";
 }
 int main() {
-    for(int j=0;j<100;j++){
+    for(int j=0;j<500;j++){
         system("CLS");
         pushX(j);
         cout<<"Hello World!";
@@ -24,3 +23,4 @@ int main() {
     }
 	return 0;	
 }
+
